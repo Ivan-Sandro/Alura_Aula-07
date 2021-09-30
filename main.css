@@ -1,0 +1,112 @@
+body{
+    align-content: center;
+    background: linear-gradient(146.85deg, #f0f0f0 7.26%, #1f4d85 100.03%);
+    background-position: cover;   
+    height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+p{
+    margin-top: 3px;
+}
+h2{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+button{
+    display: block;
+    border-radius: 0px 15px 0px 15px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    height: 55px;
+    border: solid 3px black;
+    transition: all 0.5s;
+}
+#buttonSortearCartaID:hover:enabled{
+    border-radius: 0px 25px 0px 25px;
+    width: 220px;
+    height: 70px;
+    border-color: yellow;
+    background-color: sandybrown;
+    
+}
+
+#turnoIndicador{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cartasDisplayID, #botoesDisplayID, #hpCartasDisplayID{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#botoesDisplayID{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#botaoAtacar:hover:enabled, #botaoBloquear:hover:enabled,
+#botaoAtacarMagia:hover:enabled, #botaoBloquearMagia:hover:enabled{
+    color: white;
+    font-weight: bolder;
+    border: outset 5px white;
+}
+#botaoAtacar:hover:enabled{
+    background-color: red;
+}
+#botaoBloquear:hover:enabled{
+    background-color: blue;
+}
+#botaoAtacarMagia:hover:enabled{
+    background-color: red;
+    border-color: yellow;
+}
+#botaoBloquearMagia:hover:enabled{
+    background-color: blue;
+    border-color: yellow;
+}
+
+.displayHp{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cartaSorteada{
+    display: inline-block;
+    text-align: center;
+    font-size:  30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 45px;
+    background-size: 190px 200px;
+    position: relative;
+    border: solid 10px rgb(192, 192, 192);
+    box-shadow: 10px 10px 10px 5px black;
+    width: 210px;
+    height: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+    min-width: 195px;
+    transition: all 0.7s;
+    
+}
+.cartaSorteada:hover{
+    width: 230px;
+    height: 430px;
+    font-size: 35px;
+    background-position-y: 60px;
+    background-size: 200px 210px;
+}
+
+.disabledDiv{
+    pointer-events: none;
+    border: rgb(128, 128, 128);
+    opacity: 0.6;
+}
