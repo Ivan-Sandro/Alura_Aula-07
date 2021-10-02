@@ -12,7 +12,7 @@ class CARTAS {
         return this.cartaJogadores;
     };
 
-    addCartasAoBaralho(nomeP, ataqueP, defesaP, magiaP, imagemP){
+    addCartaAoBaralho(nomeP, ataqueP, defesaP, magiaP, imagemP){
         var carta = {
             nome: nomeP,
             imagem: imagemP,

@@ -10,6 +10,9 @@ body{
 p{
     margin-top: 3px;
 }
+h1{
+    margin-top: 5px;
+}
 h2{
     font-family: 'Gemunu Libre', sans-serif;
 }
@@ -95,7 +98,6 @@ button{
     margin-left: 20px;
     min-width: 195px;
     transition: all 0.7s;
-    
 }
 .cartaSorteada:hover{
     width: 230px;
